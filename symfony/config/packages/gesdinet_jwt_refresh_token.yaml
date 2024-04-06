@@ -1,0 +1,11 @@
+gesdinet_jwt_refresh_token:
+    refresh_token_class: App\Entity\RefreshToken
+    ttl: 2592000
+    user_identity_field: username
+    ttl_update: true
+    firewall: api
+    token_parameter_name: refreshToken
+    user_provider: security.user.provider.concrete.app_user_provider
+    single_use: true
+    return_expiration: true
+    return_expiration_parameter_name: refresh_token_expiration

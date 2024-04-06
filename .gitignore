@@ -1,0 +1,31 @@
+
+###> symfony/framework-bundle ###
+/symfony/.env.local
+/symfony/.env.local.php
+/symfony/.env.*.local
+/.env
+/symfony/config/secrets/prod/prod.decrypt.private.php
+symfony/config/secrets/dev/*
+/symfony/public/bundles/
+/symfony/var/
+/symfony/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/symfony/phpunit.xml
+/symfony/.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+/symfony/.phpunit.result.cache
+/symfony/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/asset-mapper ###
+/symfony/public/assets/
+/symfony/assets/vendor/
+###< symfony/asset-mapper ###
+
+###> lexik/jwt-authentication-bundle ###
+/symfony/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
