@@ -3,6 +3,9 @@
 /symfony/.env.local
 /symfony/.env.local.php
 /symfony/.env.*.local
+/symfony/.env
+/symfony/config/jwt/private.pem
+/symfony/config/jwt/public.pem
 /.env
 /symfony/config/secrets/prod/prod.decrypt.private.php
 symfony/config/secrets/dev/*
@@ -17,8 +20,8 @@ symfony/config/secrets/dev/*
 ###< phpunit/phpunit ###
 
 ###> symfony/phpunit-bridge ###
-/symfony/.phpunit.result.cache
-/symfony/phpunit.xml
+#/symfony/.phpunit.result.cache
+#/symfony/phpunit.xml
 ###< symfony/phpunit-bridge ###
 
 ###> symfony/asset-mapper ###
