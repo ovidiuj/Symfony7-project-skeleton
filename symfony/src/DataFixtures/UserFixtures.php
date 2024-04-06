@@ -24,7 +24,6 @@ class UserFixtures extends Fixture
          $user->setPassword($this->passwordEncoder->hashPassword($user, $this->containerBag->get('admin.password')));
          $user->setRoles([User::ROLE_ADMIN]);
          $user->setStatus(User::STATUS_ACTIVE);
-         $user->setUsername($this->containerBag->get('admin.username'));
 
          $manager->persist($user);
 

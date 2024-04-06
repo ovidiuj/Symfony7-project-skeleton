@@ -37,7 +37,7 @@ nelmio_api_doc:
                             application/json:
                                 schema:
                                     properties:
-                                        username:
+                                        email:
                                             type: string
                                         password:
                                             type: string

@@ -3,5 +3,6 @@
 - Ngnix
 - Symfony 7
 - PHP 8
+- MySQL
 - Swagger
 - JWT User Authentication
